@@ -1,6 +1,6 @@
 {
   "name": "@amoutonbrady/solid-i18n",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Smallest translation lib for solid",
   "main": "dist/solid-i18n.cjs.js",
   "module": "dist/solid-i18n.esm.js",
