@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "rimraf dist types && rollup -c && tsc",
-    "prepublishOnly": "yarn build"
+    "prepack": "yarn build"
   },
   "repository": {
     "type": "git",
