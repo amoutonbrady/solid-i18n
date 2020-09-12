@@ -1,3 +1,5 @@
+<img alt="preview badge" src="https://img.shields.io/bundlephobia/min/@amoutonbrady/solid-i18n">
+
 # solid-i18n
 
 Tiny translation library for [solid-js](https://github.com/ryansolid/solid) inspired by [rosetta](https://github.com/lukeed/rosetta)
