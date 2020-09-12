@@ -9,7 +9,7 @@ const extensions = ['.tsx', '.ts'];
  * @type {import('rollup').RollupOptions}
  */
 const config = {
-  input: 'src/solid-tiny-router.tsx',
+  input: `src/i18n.tsx`,
   treeshake: true,
   external: [...Object.keys(pkg.dependencies), 'solid-js/dom'],
   output: [
