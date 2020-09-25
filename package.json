@@ -1,6 +1,6 @@
 {
   "name": "@amoutonbrady/solid-i18n",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Smallest translation lib for solid",
   "main": "dist/solid-i18n.cjs.js",
   "module": "dist/solid-i18n.esm.js",
@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/amoutonbrady/solid-i18n#readme",
   "peerDependencies": {
-    "solid-js": "^0.19.3"
+    "solid-js": "^0.20.0"
   },
   "dependencies": {
-    "solid-js": "^0.19.3"
+    "solid-js": "^0.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -43,10 +43,10 @@
     "@babel/types": "^7.11.5",
     "@rollup/plugin-babel": "^5.2.1",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "@types/node": "^14.10.1",
-    "babel-preset-solid": "^0.19.3",
+    "@types/node": "^14.11.2",
+    "babel-preset-solid": "^0.20.0",
     "rimraf": "^3.0.2",
-    "rollup": "^2.26.11",
-    "typescript": "^4.0.2"
+    "rollup": "^2.28.2",
+    "typescript": "^4.0.3"
   }
 }

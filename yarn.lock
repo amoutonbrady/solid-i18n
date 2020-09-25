@@ -16,12 +16,12 @@ __metadata:
     "@babel/types": ^7.11.5
     "@rollup/plugin-babel": ^5.2.1
     "@rollup/plugin-node-resolve": ^9.0.0
-    "@types/node": ^14.10.1
-    babel-preset-solid: ^0.19.3
+    "@types/node": ^14.11.2
+    babel-preset-solid: ^0.20.0
     rimraf: ^3.0.2
-    rollup: ^2.26.11
-    solid-js: ^0.19.3
-    typescript: ^4.0.2
+    rollup: ^2.28.2
+    solid-js: ^0.20.0
+    typescript: ^4.0.3
   peerDependencies:
     solid-js: ^0.19.3
   languageName: unknown
@@ -387,10 +387,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^14.10.1":
-  version: 14.10.1
-  resolution: "@types/node@npm:14.10.1"
-  checksum: 086b4baffc1f13eee84fb4ff072d685b3fecad59f4166c4367f1ab0db6aa30fc81cf67e6469775072b51126c52bcfec40bae6fafef4e4dc8f4c42f94211e28f4
+"@types/node@npm:*, @types/node@npm:^14.11.2":
+  version: 14.11.2
+  resolution: "@types/node@npm:14.11.2"
+  checksum: 3badcce3991cd8487b549b2541c9a9809f77ded06a2846dd9c73948d12a442290b31abef2d4b0304cc7e30539614ae82ff3b70d93a4b9a82e19128b3d17a9e0f
   languageName: node
   linkType: hard
 
@@ -492,13 +492,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-jsx-dom-expressions@npm:~0.20.3":
-  version: 0.20.3
-  resolution: "babel-plugin-jsx-dom-expressions@npm:0.20.3"
+"babel-plugin-jsx-dom-expressions@npm:~0.20.8":
+  version: 0.20.11
+  resolution: "babel-plugin-jsx-dom-expressions@npm:0.20.11"
   dependencies:
     "@babel/helper-module-imports": ^7.10.4
     "@babel/plugin-syntax-jsx": ^7.10.4
-  checksum: ea26e06b4cca6337b2245c588734568a3d3954027280b73228cedfd9bfaecd713c072b6b9de5813f835e243381b02bdf61ece46d8c9715b067d7b1cf25e00a8a
+  checksum: 0a419e27da4f1f4175ed8a5a9ca5a98d19423071e0fc201333e1fe605e19c43b504b9326a00a5645bba20494264a40a199ecc3443a7e598b0f2af29606a69165
   languageName: node
   linkType: hard
 
@@ -509,13 +509,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-preset-solid@npm:^0.19.3":
-  version: 0.19.3
-  resolution: "babel-preset-solid@npm:0.19.3"
+"babel-preset-solid@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "babel-preset-solid@npm:0.20.0"
   dependencies:
-    babel-plugin-jsx-dom-expressions: ~0.20.3
+    babel-plugin-jsx-dom-expressions: ~0.20.8
     babel-plugin-transform-rename-import: ^2.3.0
-  checksum: 326af2c49758d868771bb438dac2c50c6ef65c81e5a44e3230362a5b85daf8ca3e2cbbde783ddece751057fd1003231a08db199c543aa7f62d16a877ec9882ca
+  checksum: 0e91f2a3dcb10e27f7d9960e9ab712dfaf06a75b3755d2275fbad15f7646a8a5f82cf87a4f4e768bb6bde085e7f8c86f0dfdc8097a15062ec9cefd15c2ec3db1
   languageName: node
   linkType: hard
 
@@ -1340,9 +1340,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.26.11":
-  version: 2.26.11
-  resolution: "rollup@npm:2.26.11"
+"rollup@npm:^2.28.2":
+  version: 2.28.2
+  resolution: "rollup@npm:2.28.2"
   dependencies:
     fsevents: ~2.1.2
   dependenciesMeta:
@@ -1350,7 +1350,7 @@ fsevents@~2.1.2:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 65759710ab819fb724ec4a20e49395321690626e86194729312e5355fc3b14c7c3f0f8104129b3864f66bd472b32bbcad065655f0cabf4c5c4786436658eb894
+  checksum: a0cfb9b5f7a3bd6b1528c18de5b86fa9befa78ee5358fe697c058ddd72325ce4d4b72df2391c8b06c538c92827035e26943b09ffa82b99a35bf3034ebd64e4f9
   languageName: node
   linkType: hard
 
@@ -1400,10 +1400,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^0.19.3":
-  version: 0.19.3
-  resolution: "solid-js@npm:0.19.3"
-  checksum: 12e5bfbb5d2b01ab343f402d466b9cb5f913596cf86649b37d29a2b0343d021914a5ec7d67fbd1838ec6bbc5b818d020a4fd4c02fbb2fde3675225fb55366bc4
+"solid-js@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "solid-js@npm:0.20.0"
+  checksum: 2b4be75a30060de07177b6ed94a0acf33459cd64ed9370b75b3a5cd98f4b457e8c9acdf6808834913e81db8d871ac0a56937734bfa06c5514a0b437d90a0914a
   languageName: node
   linkType: hard
 
@@ -1520,23 +1520,23 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-typescript@^4.0.2:
-  version: 4.0.2
-  resolution: "typescript@npm:4.0.2"
+typescript@^4.0.3:
+  version: 4.0.3
+  resolution: "typescript@npm:4.0.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: cc0e7806eee7997a1b4b2990badacc4a8d089893ed0a377f35c9658e2ac392503cb340d0187203ed82e36e427dda94b0fb7107e44a71cca99efac86be26e16ee
+  checksum: 5c892e132756a83d22030d7fb38be47cde27613f71d233dbe7faf79e4a92852c5146bfddcaf8c2da1a37d35ae8bf7b8c888fdcd763d5ad184cea6b21e7466838
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.2#builtin<compat/typescript>":
-  version: 4.0.2
-  resolution: "typescript@patch:typescript@npm%3A4.0.2#builtin<compat/typescript>::version=4.0.2&hash=5b02a2"
+"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
+  version: 4.0.3
+  resolution: "typescript@patch:typescript@npm%3A4.0.3#builtin<compat/typescript>::version=4.0.3&hash=5b02a2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: b8b689ef994cce4fe59950d56ddfffce3c4bdda8edb85b72e752d4a6d27bf7df8a318e76ccde25cbe6e642058f2f4ccf47187db4b243bbc98278a2844db9461b
+  checksum: 72db87d09f728c83062d64b5e12ed52effb6278963b6bc5c006219b22c104e02b8ce80164261de554923d3c47d894a1ca937ed542328caccb83ebaedeae98a69
   languageName: node
   linkType: hard
 
