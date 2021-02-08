@@ -2,51 +2,62 @@
   "name": "@amoutonbrady/solid-i18n",
   "version": "0.2.0",
   "description": "Smallest translation lib for solid",
-  "main": "dist/solid-i18n.cjs.js",
-  "module": "dist/solid-i18n.esm.js",
-  "jsnext:main": "dist/solid-i18n.esm.js",
-  "types": "types/solid-i18n.d.ts",
+  "author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
+  "homepage": "https://github.com/amoutonbrady/solid-i18n#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoutonbrady/solid-i18n.git"
+  },
+  "keywords": [
+    "solid",
+    "solidjs",
+    "i18n",
+    "l10n"
+  ],
+  "solid": "dist/source/solid-i18n.jsx",
+  "source": "dist/source/solid-i18n.jsx",
+  "main": "dist/cjs/solid-i18n.js",
+  "module": "dist/esm/solid-i18n.js",
+  "types": "dist/types/solid-i18n.d.ts",
+  "exports": {
+    ".": {
+      "solid": "./dist/source/solid-i18n.jsx",
+      "import": "./dist/esm/solid-i18n.js",
+      "browser": "./dist/esm/solid-i18n.js",
+      "require": "./dist/cjs/solid-i18n.js",
+      "node": "./dist/cjs/solid-i18n.js"
+    }
+  },
   "sideEffect": false,
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "dist",
-    "types"
+    "dist"
   ],
   "scripts": {
-    "build": "rimraf dist types && rollup -c && tsc",
-    "prepack": "yarn build"
+    "build": "del dist && rollup -c && tsc",
+    "prepublishOnly": "pnpm build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amoutonbrady/solid-i18n.git"
-  },
-  "keywords": [],
-  "author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amoutonbrady/solid-i18n/issues"
-  },
-  "homepage": "https://github.com/amoutonbrady/solid-i18n#readme",
   "peerDependencies": {
-    "solid-js": "^0.20.0"
+    "solid-js": "^0.24"
   },
   "dependencies": {
-    "solid-js": "^0.23.4"
+    "solid-js": "^0.24.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-typescript": "^7.12.7",
-    "@babel/runtime": "^7.12.5",
-    "@babel/types": "^7.12.11",
-    "@rollup/plugin-babel": "^5.2.2",
-    "@rollup/plugin-node-resolve": "^11.0.1",
-    "@types/node": "^14.14.14",
-    "babel-preset-solid": "^0.23.4",
-    "rimraf": "^3.0.2",
-    "rollup": "^2.35.1",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
+    "@babel/preset-typescript": "^7.12.13",
+    "@babel/runtime": "^7.12.13",
+    "@babel/types": "^7.12.13",
+    "@rollup/plugin-babel": "^5.2.3",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@types/node": "^14.14.25",
+    "babel-preset-solid": "^0.24.2",
+    "del-cli": "^3.0.1",
+    "rollup": "^2.38.5",
     "typescript": "^4.1.3"
   }
 }
