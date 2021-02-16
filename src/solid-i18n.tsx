@@ -68,7 +68,7 @@ function template(str: string, params: Record<string, string>, reg: RegExp = /{{
  */
 function createI18nContext(
   init: Record<string, Record<string, any>> = {},
-  lang: string = navigator.language,
+  lang: string = navigator.language in init ? navigator.language : Object.keys(init)[0],
 ): readonly [
   (key: string, params?: Record<string, string>, defaultValue?: string) => string,
   {

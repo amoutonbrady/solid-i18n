@@ -30,7 +30,7 @@ const config = {
     babel({
       extensions,
       babelHelpers: 'bundled',
-      presets: ['babel-preset-solid', '@babel/preset-typescript'],
+      babelrc: true,
     }),
   ],
 };
