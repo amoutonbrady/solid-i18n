@@ -10,7 +10,7 @@
     "url": "git+https://github.com/amoutonbrady/solid-i18n.git"
   },
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   },
   "keywords": [
     "solid",
@@ -40,7 +40,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "del dist && rollup -c && tsc",
+    "build": "del dist && rollup -c && tsc --project tsconfig.build.json",
     "test": "jest tests",
     "prepublishOnly": "pnpm build"
   },
