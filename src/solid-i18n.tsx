@@ -1,4 +1,5 @@
-import { createState, createSignal, createContext, Component, useContext } from 'solid-js';
+import { createSignal, createContext, Component, useContext } from 'solid-js';
+import { createStore } from 'solid-js/store';
 
 /**
  * Safely access deep values in an object via a string path seperated by `.`
@@ -78,7 +79,7 @@ function createI18nContext(
   },
 ] {
   const [locale, setLocale] = createSignal(lang);
-  const [dict, setDict] = createState(init);
+  const [dict, setDict] = createStore(init);
 
   /**
    * The main translation function of the library, given a key, it will look into its

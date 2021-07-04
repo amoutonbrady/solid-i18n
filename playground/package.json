@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^2.3.8",
+    "vite-plugin-solid": "^2.0.0"
+  },
+  "dependencies": {
+    "@amoutonbrady/solid-i18n": "link:..",
+    "solid-js": "^1.0.0"
+  }
+}
