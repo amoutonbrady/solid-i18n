@@ -1,6 +1,6 @@
 {
   "name": "@amoutonbrady/solid-i18n",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Smallest translation lib for solid",
   "author": "Alexandre Mouton-Brady <amoutonbrady@gmail.com>",
   "homepage": "https://github.com/amoutonbrady/solid-i18n#readme",
