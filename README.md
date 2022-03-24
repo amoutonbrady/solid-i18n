@@ -1,3 +1,6 @@
+This library was an experiment. This is now deprecated in favor of a similar package and officially supported by core members of solid: [@solid-primitives/i18n](https://github.com/davedbase/solid-primitives/tree/main/packages/i18n)
+
+
 <img alt="preview badge" src="https://img.shields.io/bundlephobia/min/@amoutonbrady/solid-i18n">
 
 # solid-i18n
